@@ -88,6 +88,3 @@ function Welcome() {
 }
 
 export default Welcome
-
-
-// https://youtu.be/j9ZD_hlyHOA
