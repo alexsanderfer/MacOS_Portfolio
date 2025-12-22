@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {Dock, Navbar, Welcome} from "#components";
-import {Finder, Resume, Safari, Terminal, Text, Image, Contact} from "#windows"
+import {Dock, Home, Navbar, Welcome} from "#components";
+import {Finder, Resume, Safari, Terminal, Text, Image, Contact, Photos} from "#windows"
 
 import {Draggable} from "gsap/Draggable";
 import gsap from "gsap";
@@ -13,6 +13,7 @@ function App() {
         <main>
             <Navbar/>
             <Welcome/>
+            <Home/>
 
             <Dock/>
 
@@ -20,6 +21,7 @@ function App() {
             <Safari/>
             <Resume/>
             <Finder/>
+            <Photos/>
 
             <Text/>
             <Image/>
