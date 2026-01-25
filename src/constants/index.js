@@ -214,7 +214,7 @@ const WORK_LOCATION = {
     children: [
         // ▶ Project 1
         {
-            id: 5,
+            id: 1,
             name: "My Trucker Diary",
             icon: "/images/folder.png",
             kind: "folder",
@@ -267,7 +267,7 @@ const WORK_LOCATION = {
 
         // ▶ Project 2
         {
-            id: 6,
+            id: 2,
             name: "Cash Flow Management Tool",
             icon: "/images/folder.png",
             kind: "folder",
@@ -320,7 +320,7 @@ const WORK_LOCATION = {
 
         // ▶ Project 3
         {
-            id: 7,
+            id: 3,
             name: "Shop Listly App",
             icon: "/images/folder.png",
             kind: "folder",
@@ -366,6 +366,59 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "fig",
                     href: "https://google.com",
+                    position: "top-60 right-20",
+                },
+            ],
+        },
+
+        // ▶ Project 4
+        {
+            id: 4,
+            name: "ConversoAI",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-45 right-10",
+            windowPosition: "top-[10vh] right-9",
+            children: [
+                {
+                    id: 1,
+                    name: "ConversoAI.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "converso-ai.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://saas-app-delta-navy.vercel.app/",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "converso-ai.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://saas-app-delta-navy.vercel.app/",
                     position: "top-60 right-20",
                 },
             ],
