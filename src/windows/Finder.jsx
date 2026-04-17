@@ -1,6 +1,6 @@
 import React from 'react'
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
-import {locations, techStack} from "#constants/index.js";
+import {locations} from "#constants/index.js";
 import {Check, Flag, Search} from "lucide-react";
 import {WindowControls} from "#components";
 import useLocationStore from "#store/Location.jsx";
@@ -31,7 +31,7 @@ const Finder = () => {
                     <li
                         key={item.id}
                         onClick={() => setActiveLocation(item)}
-                        className={clsx(item.id === activeLocation.id ? 'active' : 'not-active:')}>
+                        className={clsx(item.name === activeLocation.name ? 'active' : 'not-active:')}>
                         <img src={item.icon} className="w-4" alt={item.name}/>
                         <p className="text-sm font-medium truncate">{item.name}</p>
                     </li>
