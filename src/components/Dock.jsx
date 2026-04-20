@@ -40,6 +40,12 @@ function Dock() {
             animateIcons(e.clientX - left)
         }
 
+        const handleTouchMove = (e) => {
+            const {left} = dock.getBoundingClientRect();
+            const touch = e.touches[0];
+            animateIcons(touch.clientX - left)
+        }
+
         const resetIcons = () => icons.forEach((icon) => gsap.to(icon, {
             scale: 1,
             y: 0,
@@ -49,10 +55,14 @@ function Dock() {
 
         dock.addEventListener('mousemove', handleMouseMove)
         dock.addEventListener('mouseleave', resetIcons)
+        dock.addEventListener('touchmove', handleTouchMove)
+        dock.addEventListener('touchend', resetIcons)
 
         return () => {
             dock.removeEventListener('mousemove', handleMouseMove)
             dock.removeEventListener('mouseleave', resetIcons)
+            dock.removeEventListener('touchmove', handleTouchMove)
+            dock.removeEventListener('touchend', resetIcons)
         }
 
     }, [])

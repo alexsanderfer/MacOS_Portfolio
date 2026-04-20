@@ -77,13 +77,9 @@ function Welcome() {
     return (
         <section id="welcome">
             <p ref={subTitleRef}>
-                {renderText("Hey, I'm Alexsander! Welcome to my", 'text-3xl font-georama', 100)}
+                {renderText("Hey, I'm Alexsander! Welcome to my", 'text-2xl sm:text-3xl font-georama', 100)}
             </p>
-            <h1 ref={titleRef} className="mt-7">{renderText("portfolio", 'text-9xl italic font-georama')}</h1>
-
-            <div className="small-screen">
-                <p>This Portfolio is designed for desktop/tablet screen only.</p>
-            </div>
+            <h1 ref={titleRef} className="mt-4 sm:mt-7">{renderText("portfolio", 'text-5xl sm:text-7xl md:text-9xl italic font-georama')}</h1>
         </section>
     )
 }

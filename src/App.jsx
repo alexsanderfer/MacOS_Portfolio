@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Dock, Home, Navbar, Welcome} from "#components";
+import {Dock, Home, Navbar, Welcome, StatusBar, HomeIndicator, Notch} from "#components";
 import {Finder, Resume, Safari, Terminal, Text, Image, Contact, Photos} from "#windows"
 
 import {Draggable} from "gsap/Draggable";
@@ -11,6 +11,8 @@ gsap.registerPlugin(Draggable)
 function App() {
     return (
         <main>
+            <Notch/>
+            <StatusBar/>
             <Navbar/>
             <Welcome/>
             <Home/>
@@ -27,6 +29,8 @@ function App() {
             <Image/>
 
             <Contact/>
+
+            <HomeIndicator/>
         </main>
     )
 }
