@@ -422,8 +422,7 @@ const WORK_LOCATION = {
                 },
             ],
         },
-
-        
+    ],
 };
 
 const ABOUT_LOCATION = {
