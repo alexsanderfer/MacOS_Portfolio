@@ -423,59 +423,7 @@ const WORK_LOCATION = {
             ],
         },
 
-        // ▶ Project 5
-        {
-            id: 5,
-            name: "Dorff Moda",
-            icon: "/images/folder.png",
-            kind: "folder",
-            position: "top-65 right-15",
-            windowPosition: "top-[20vh] right-13",
-            children: [
-                {
-                    id: 1,
-                    name: "Dorff Moda.txt",
-                    icon: "/images/txt.png",
-                    kind: "file",
-                    fileType: "txt",
-                    position: "top-5 left-10",
-                    description: [
-                        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    ],
-                },
-                {
-                    id: 2,
-                    name: "Dorff Moda",
-                    icon: "/images/safari.png",
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://dorff-loja.vercel.app/",
-                    position: "top-10 right-20",
-                },
-                {
-                    id: 3,
-                    name: "dorff-moda.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "",
-                },
-                {
-                    id: 4,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://dorff-loja.vercel.app/",
-                    position: "top-60 right-20",
-                },
-            ],
-        },
-    ],
+        
 };
 
 const ABOUT_LOCATION = {
